@@ -1,0 +1,104 @@
+#image{
+position: absolute;
+z-index: -1;
+left: 0px;
+opacity: 0;
+animation-name: myimage;
+animation-duration: 2s;
+animation-timing-function: ease;
+animation-delay: 4s;
+animation-fill-mode: forwards;
+}
+
+@keyframes myimage{
+0%{
+
+opacity: 0;
+}
+50%{
+0.5;
+}
+100%{
+opacity: 1;
+}
+
+}
+
+h1{
+text-align: center;
+opacity:0;
+margin-left: 35;
+margin-top: 30;
+animation-name: header;
+animation-duration: 2s;
+animation-timing-function: linear;
+animation-delay: 5s;
+animation-fill-mode: forwards;
+
+}
+
+@keyframes header{
+0%{
+color: white;
+bottom: 20px;
+opacity: 0;
+}
+
+100%{
+opacity: 1;
+color: black;
+bottom: 20px;
+}
+
+}
+.navText{
+position: absolute;
+z-index: 1;
+left: 0px;
+width: 100px;
+height: 100%;
+opacity: 0;
+animation-name: text;
+animation-duration: 2s;
+animation-timing-function: linear;
+animation-delay: 1s;
+animation-fill-mode: forwards;
+font-size: 20px;
+}
+
+@keyframes text{
+0%{
+
+opacity: 0;
+}
+
+100%{
+opacity: 1;
+}
+
+}
+.navBox{
+position: absolute;
+z-index: 2;
+left: 0px;
+width: 100px;
+height: 100%;
+opacity: 0;
+animation-name: pic;
+animation-duration: 2s;
+animation-timing-function: linear;
+animation-delay: 2s;
+animation-fill-mode: forwards;
+background-color: black;
+}
+@keyframes pic{
+0%{
+
+opacity: 0;
+}
+
+100%{
+opacity: 1;
+}
+
+}
