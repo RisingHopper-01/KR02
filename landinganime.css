@@ -1,0 +1,80 @@
+.backpic{
+opacity: 1;
+background-image: url("opacity.jpg");
+background-size: 1400px 1000px;
+animation-name: bodypic;
+animation-duration: 3s;
+animation-iteration-count: 1;
+animation-direction: forward;
+}
+
+@keyframes backpic {
+  0%   {
+opacity: 1;
+ 
+
+    }
+  100% {
+ 
+    opacity:0;
+display: none;
+  }
+}
+
+#boxsquare {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  animation-name: landing;
+  animation-duration: 3s;
+  animation-iteration-count: 3;
+}
+
+@keyframes landing {
+  0%   {
+    background-color: rgba(60, 125, 122);
+    left:500px;
+    top:400px;
+  }
+  25%  {
+    background-color: rgba(60, 125, 122, 0.8);
+    left:500px;
+    top:450px;
+  }
+  50%  {
+    background-color: rgba(60, 125, 122, 0.6);
+    left:550px;
+    top:450px;
+  }
+  75%  {
+    background-color: rgba(60, 125, 122, 0.4);
+    left:550px;
+    top:400px;
+  }
+  100% {
+    background-color: rgba(60, 125, 122, 0.2);
+    left:500px;
+    top:400px;
+  }
+}
+
+h1{
+font-size: 100px;
+text-align: center;
+animation-name: head;
+animation-duration: 2s;
+animation-iteration-count: 1;
+color: black;
+}
+@keyframes head {
+  0%   {
+    opacity:1;
+    
+  }
+  
+  
+
+  100% {
+ opacity:0;
+  }
+}
